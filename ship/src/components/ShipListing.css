@@ -1,35 +1,21 @@
-/* src/components/CarListing.css */
 .ship-listing {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 300px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-  }
-  
-  .ship-listing:hover {
-    transform: scale(1.05);
-  }
-  
-  .ship-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .ship-name, .ship-land {
-    font-size: 1.5em;
-    margin: 16px;
-    text-align: center;
-  }
-  
-  .ship-price, .ship-class, .ship-stufe {
-    font-size: 1em;
-    margin: 8px 16px;
-    text-align: center;
-  }
+  border: 1px solid #0c0101;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  
-  
+
+.ship-image {
+  width: 200%;
+  height: 300%;
+  object-fit: cover;
+}
+
+.ship-name, .ship-price, .ship-class, .ship-level, .ship-land {
+  margin: 5px 0;
+}

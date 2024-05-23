@@ -1,12 +1,46 @@
 /* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Hier die Hintergrundfarbe ändern */
+}
+
+.neuste {
+  font-size: 3em; /* Schriftgröße anpassen nach Bedarf */
+  color: #fff; /* Textfarbe */
+  text-shadow: 
+    1px 1px 0px #000, 
+    2px 2px 0px #000, 
+    3px 3px 0px #000, 
+    4px 4px 0px #000; /* Schatten erzeugt 3D-Effekt */
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  padding: 20px;
+  background-image: url('https://t4.ftcdn.net/jpg/02/18/18/55/360_F_218185587_P4zituDtWJOfClUKL6merI0BgLMIxoeC.jpg');
+
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header h1 {
+  font-size: 3em; 
+  color: #e6e6f0; 
+  text-shadow: 
+    1px 1px 0px #000, 
+    2px 2px 0px #000, 
+    3px 3px 0px #000, 
+    4px 4px 0px #000; /* Schatten erzeugt 3D-Effekt */
 }
 
 .ship-listings {

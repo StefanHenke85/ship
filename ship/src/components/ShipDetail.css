@@ -1,0 +1,29 @@
+.ship-detail {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ship-image {
+    width: 50%;
+    height: auto;
+    margin: 20px 0;
+    object-fit: cover;
+  }
+  
+  .ship-price, .ship-class, .ship-level, .ship-land, .ship-description {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
