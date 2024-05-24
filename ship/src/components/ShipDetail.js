@@ -22,7 +22,7 @@ const ShipDetail = ({ ships }) => {
       <p className="ship-land">Land: {ship.land}</p>
       <p className="ship-description">Dies ist eine kurze Beschreibung des Schiffs.</p>
       <div className="buttons">
-        <button onClick={() => alert('Kaufen')}>Kaufen</button>
+        <button onClick={() => alert('Glückwunsch zum kauf')}>Kaufen</button>
         <button onClick={() => navigate('/')}>Zurück zur Hauptseite</button>
       </div>
     </div>

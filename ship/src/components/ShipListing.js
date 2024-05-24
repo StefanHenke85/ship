@@ -2,8 +2,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ShipListing.css'; // Aktualisiere den Pfad zu CSS-Datei
+import Timer from './Timer';
 
 const ShipListing = ({ id, stufe, name, image, price, shipClass, land }) => {
+  const initialTime = Math.floor(Math.random() *3600);
   return (
     <Link to={`/ship/${id}`} className="ship-listing">
       <img src={image} alt={name} className="ship-image" />
@@ -12,6 +14,7 @@ const ShipListing = ({ id, stufe, name, image, price, shipClass, land }) => {
       <p className="ship-class">Klasse: {shipClass}</p>
       <p className="ship-level">Stufe: {stufe}</p>
       <p className="ship-land">Land: {land}</p>
+      < Timer initialTime={initialTime} />
     </Link>
   );
 };
