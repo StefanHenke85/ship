@@ -14,7 +14,9 @@ const Timer = ({ initialTime }) => {
 
     return (
         <div>
-            Verbleibende Zeit: {Math.floor(timeLeft / 60)}m {timeLeft % 60}s
+            jetz zuschlagen
+            <br></br>
+            Nur noch: {Math.floor(timeLeft / 60)}Minuten {timeLeft % 60}Sekunden verfügbar
         </div>
     );
 };

@@ -9,7 +9,7 @@ body {
 
 .neuste {
   font-size: 3em; /* Schriftgröße anpassen nach Bedarf */
-  color: #fff; /* Textfarbe */
+  color: #0d71e4; /* Textfarbe */
   text-shadow: 
     1px 1px 0px #000, 
     2px 2px 0px #000, 
@@ -48,4 +48,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
